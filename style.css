@@ -82,8 +82,7 @@ border-bottom: 0.3rem solid darkblue; }
 box-shadow: 1px 1px 2px darkblue;
 border-radius: 3px; }
 
-.code { color: darkorchid; 
-transition: color 0.3s ease-out; }
+.code { color: darkorchid; }
 
 .project:hover .code { color: darkblue; }
 
@@ -98,4 +97,47 @@ padding: 2rem 0.5rem; }
 padding: 1rem 2rem;
 border-radius: 2px; }
 
-.btn-show-all
+.btn-show-all { font-size: 2rem;
+background: darkblue;
+}
+
+.btn-show-all:hover { background: darkorchid; }
+
+.btn-show-all > i { margin-left: 10px; }
+
+.contact-section { display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 80vh;
+padding: 0 2rem;
+background-color: rgb(123, 53, 188); }
+
+.contact-section-header > h2 { font-size: 6rem; }
+
+.contact-section-header > p { font-style: italic; }
+
+.contact-links { display: flex;
+justify-content: center;
+width: 100%;
+max-width: 980px;
+margin-top: 4rem;
+flex-wrap: wrap; 
+}
+
+.contact-details { font-size: 2.4rem;
+text-shadow: 2px 2px 1px darkblue; }
+
+footer { font-weight: 300;
+display: flex;
+justify-content: space-evenly;
+padding: 2rem;
+background-color: midnightblue;
+border-top: 4px solid darkmagenta; }
+
+footer > p { margin: 2rem; }
+
+
+
